@@ -17,7 +17,14 @@
     $("#new-form").submit(function(event) {
       event.preventDefault();
       var textbox = $('.new-todo')
-      console.log("Task: ", textbox.val());
+      var payLoad = {
+        task: {
+          title: textbox.val()
+        }
+      };
+      $.post("/tasks", payLoad).success(function(data) {
+        console.log("Successful HTTP Request");
+      });
     });
   });
 
