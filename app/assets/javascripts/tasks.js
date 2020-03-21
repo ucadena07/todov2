@@ -1,6 +1,4 @@
-$(function () {
-   
-});
+
 
 $(function() {
 
@@ -9,7 +7,7 @@ $(function() {
       var liElement = '<li><div class="view"><input class="toggle" type="checkbox"' +
       " data-id='" + task.id + "'" + 
       checkedStatus + 
-      '><lable>' +
+      '><label>' +
         task.title +
         '</label></div></li>';
     return liElement;
@@ -54,6 +52,7 @@ $(function() {
       var ulTodos = $('.todo-list');
       ulTodos.append(htmlString);
       $('.toggle').click(toggleTask);
+      $('.new-todo').val('');
     });
   });
 
