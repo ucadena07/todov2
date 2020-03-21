@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Single Page Todo Application 
 
-Things you may want to cover:
+This single-page to-do application features a fluid user interface that– by using JavaScript– allows users to rapidly add dynamic content
 
-* Ruby version
+Try the app @ https://todov2-ulises-cadena.herokuapp.com/
+<br />
 
-* System dependencies
+<img src="app/assets/images/Todo.png" alt="Front Page Screenshoot">
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
